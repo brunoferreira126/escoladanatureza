@@ -7,7 +7,7 @@ function App() {
     "https://forms.gle/NNuqGhTsS2mhc9ja6";
 
   const whatsappEscola =
-    "https://wa.me/5585985138566";
+    "https://wa.me/558598513856";
 
   const whatsappSuporte =
     "https://wa.me/5585981906528";
