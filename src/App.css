@@ -1,0 +1,196 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f8f1;
+}
+
+.container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+
+.card{
+  width:100%;
+  max-width:700px;
+  background:white;
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.logo{
+  width:280px;
+  display:block;
+  margin:30px auto 10px;
+}
+
+.badge{
+  width:fit-content;
+  margin:0 auto;
+  background:#63b32e;
+  color:white;
+  padding:10px 20px;
+  border-radius:30px;
+  font-weight:bold;
+}
+
+h1{
+  text-align:center;
+  color:#123b75;
+  font-size:2rem;
+  line-height:1.3;
+  padding:20px;
+}
+
+.evento{
+  text-align:center;
+  line-height:2;
+  font-size:18px;
+  font-weight:600;
+  color:#444;
+}
+
+.vagas{
+  margin:20px;
+  background:#fff4d6;
+  color:#b07b00;
+  text-align:center;
+  padding:15px;
+  border-radius:12px;
+  font-weight:bold;
+}
+
+.como-funciona{
+  margin:20px;
+  background:#f7faf5;
+  padding:20px;
+  border-radius:15px;
+}
+
+.como-funciona h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#123b75;
+}
+
+.passo{
+  margin-bottom:12px;
+  font-size:17px;
+  font-weight:600;
+}
+
+.seta{
+  text-align:center;
+  font-size:40px;
+  animation:pular 1s infinite;
+}
+
+@keyframes pular{
+  0%{transform:translateY(0);}
+  50%{transform:translateY(10px);}
+  100%{transform:translateY(0);}
+}
+
+.btn-inscricao{
+  display:block;
+  margin:20px;
+  text-align:center;
+  text-decoration:none;
+  background:#63b32e;
+  color:white;
+  font-size:22px;
+  font-weight:bold;
+  padding:22px;
+  border-radius:15px;
+  transition:.3s;
+}
+
+.btn-inscricao:hover{
+  transform:scale(1.03);
+}
+
+.obs{
+  text-align:center;
+  padding:0 20px;
+  color:#666;
+  margin-bottom:20px;
+}
+
+.botoes{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  padding:0 20px 20px;
+}
+
+.btn-whatsapp,
+.btn-suporte{
+  text-decoration:none;
+  color:white;
+  text-align:center;
+  padding:18px;
+  border-radius:12px;
+  font-weight:bold;
+}
+
+.btn-whatsapp{
+  background:#25D366;
+}
+
+.btn-suporte{
+  background:#123b75;
+}
+
+.palestrantes{
+  padding:20px;
+}
+
+.palestrantes h2{
+  text-align:center;
+  color:#123b75;
+  margin-bottom:15px;
+}
+
+.speaker{
+  background:#f7faf5;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+.speaker span{
+  display:block;
+  margin-top:5px;
+  color:#666;
+  font-size:14px;
+  font-weight:normal;
+}
+
+.poster{
+  width:100%;
+  display:block;
+}
+
+@media(max-width:768px){
+
+  .logo{
+    width:220px;
+  }
+
+  h1{
+    font-size:1.5rem;
+  }
+
+  .btn-inscricao{
+    font-size:18px;
+  }
+
+}
